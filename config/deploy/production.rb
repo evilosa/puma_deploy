@@ -44,7 +44,7 @@ server "5.189.161.162", user: "deployer", roles: %w{app db web}
 
 set :ssh_options, {
  keys: %w(/home/evilosa/.ssh/id_rsa),
- forward_agent: false,
+ forward_agent: true,
  auth_methods: %w(publickey password),
  port: 36140
 }

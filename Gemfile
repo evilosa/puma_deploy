@@ -50,9 +50,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 
   gem 'capistrano'
-  gem 'capistrano-rails', require: false
-  gem 'capistrano-rvm', require: false
-  gem 'capistrano3-postgres', require: false
+  gem 'capistrano-rails'
+  gem 'capistrano-rvm'
   gem 'capistrano3-puma'
 end
 
