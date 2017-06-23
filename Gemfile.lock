@@ -60,7 +60,6 @@ GEM
     capistrano-rvm (0.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
-    capistrano3-postgres (0.2.3)
     capistrano3-puma (3.1.0)
       capistrano (~> 3.7)
       capistrano-bundler
@@ -201,7 +200,6 @@ DEPENDENCIES
   capistrano
   capistrano-rails
   capistrano-rvm
-  capistrano3-postgres
   capistrano3-puma
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
